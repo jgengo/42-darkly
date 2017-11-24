@@ -19,4 +19,5 @@ Jusque là tout va bien, sauf que dans ce cas precis, le .htpasswd etait pas pro
 # Comment l'eviter ?
 
 Bah justement, en protegeant son dossier par un htaccess.
-Et en evitant de croire que la convention de robots.txt :D
+
+Et en evitant de croire que la convention de robots.txt est fiable :D
