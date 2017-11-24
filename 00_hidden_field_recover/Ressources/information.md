@@ -26,7 +26,7 @@ et de le gerer en back !
 
 ### PHP
 
-```
+```php
 function request_password($email)
 {
 	mail(
