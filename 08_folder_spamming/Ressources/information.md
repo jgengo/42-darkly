@@ -10,6 +10,10 @@ Il y a qu'une seule solution la, c'est de scripter un crawler pour lire tous les
 
 Apres avoir bien tourné faire des coups de : grep -v ' ' du fichier result.txt
 
+sinon une version amelioré en python :
+
+./script.py 192.168.2.128
+
 ----
 
 # Cas d'usage ?
