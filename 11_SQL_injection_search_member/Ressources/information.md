@@ -4,7 +4,7 @@ Sur la page member search, il y a une SQL Injection.
 
 On peut afficher tous les users de la table en recherchant : "1 or 1=1"
 
-On peut imaginer une requete forger comme ca derriere :
+On peut imaginer une requete forgée comme ca derriere :
 
 ```sql
 SELECT id, firstname, surname FROM users WHERE id = $_GET['id']
