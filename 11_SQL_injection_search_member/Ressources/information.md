@@ -11,7 +11,11 @@ SELECT id, firstname, surname FROM users WHERE id = $_GET['id']
 ```
 
 en passant une UNION on peut donc lui faire afficher ce qu'on veut.
-sur la base de donnée MySQL une database contient des informations cruciales, on peut lui faire afficher les autres db / tables / columns.
+sur la base de donnée MySQL une database (information_schema) contient des informations cruciales, on peut lui faire afficher les autres db / tables / columns.
+
+```
+1 or 1=1 UNION select table_name, column_name FROM information_schema.columns
+```
 
 On peut voir une table qui s'appelle "users" avec comme column : "user_id, first_name, last_name, town, country, planet, Commentaire, countersign"
 
