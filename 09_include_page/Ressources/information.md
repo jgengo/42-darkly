@@ -8,6 +8,7 @@ lien: ?page=../../../../../../../etc/passwd
 
 Pour obtenir le flag
 
+un script python qui fait le boulot pour remonté l'arborescence de dossier se trouve dans ce dossier.
 ----
 
 # Cas d'usage ?
